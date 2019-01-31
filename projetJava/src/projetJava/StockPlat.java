@@ -10,19 +10,19 @@ package sophie_fonseque.pkg2.pkg0;
  * @author Landry Gato
  */
 public class StockPlat extends Stock{
-    private Integer idPlat;
+    private String nomPlat;
 
-    public StockPlat(Integer idPlat, Integer idStock, Integer quantite) {
-        super(idStock, quantite);
-        this.idPlat = idPlat;
+    public StockPlat(Integer nomPlat, Integer idStock, Integer quantite) {
+        super(nomStock, quantite);
+        this.nomPlat =nomPlat;
     }
 
-    public Integer getIdPlat() {
-        return idPlat;
+    public Integer getNomPlat() {
+        return nomPlat;
     }
 
-    public void setIdPlat(Integer idPlat) {
-        this.idPlat = idPlat;
+    public void setNomPlat(Integer nomPlat) {
+        this.nomPlat = nomPlat;
     }
     
     
