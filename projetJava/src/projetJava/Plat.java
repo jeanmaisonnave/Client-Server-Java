@@ -5,12 +5,14 @@ public class Plat {
 	private Integer idPlat;
 	private String nomPlat;
 	private double prix;
+	private Recette recette;
 	
 	//constructeur
-	public Plat(int idPlat, String nomPlat, double prix) {
+	public Plat(int idPlat, String nomPlat, double prix, Recette recette) {
 		this.idPlat=idPlat;
 		this.nomPlat=nomPlat;
 		this.prix=prix;
+		this.recette=recette;
 	}
 	
 	//getters and setters
@@ -32,10 +34,18 @@ public class Plat {
 	public void setPrix(double prix) {
 		this.prix = prix;
 	}
+	public Recette getRecette() {
+		return recette;
+	}
+	public void setRecette(Recette recette) {
+		this.recette = recette;
+	}
+	
 	
 	//methodes
 	public void afficherPlats(){
 		System.out.println("id :"+idPlat+"nom: "+nomPlat+"prix: "+prix);
+		recette.afficher();
 	}
 	
 }
