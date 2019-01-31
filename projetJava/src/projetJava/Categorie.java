@@ -7,7 +7,7 @@ public class Categorie {
 		
 	//constructeur
 	public Categorie(Integer idCategorie, String libCategorie) {
-		this.idCAtegorie=idCategorie;
+		this.idCategorie=idCategorie;
 		this.libCategorie=libCategorie;
 	}
 	
