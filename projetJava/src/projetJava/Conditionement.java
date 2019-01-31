@@ -6,6 +6,10 @@ public class Conditionement {
 	private String libConditionement;
 	
 	//constructeur
+	public Conditionement(Integer idConditionement, String libConditionement) {
+		this.idConditionement=idConditionement;
+		this.libConditionement=libConditionement;
+	}
 	
 	//getters and setters
 	public Integer getIdConditionement() {
