@@ -10,19 +10,19 @@
  */
 public class Etiquette {
     
-    private int idConditionnement;
+    private integer idConditionnement;
     private String libConditionnement;
-    private static  int nbreEtiquette = 0;
     
     public Etiquette() {
         //contructeur
         //On incrémente la variable à chaque appel du constructeur
-        nbreEtiquette++;
+        
     }
     
     public Etiquette(int idConditionnement, String libConditionnement) {
         //contructeur
-        nbreEtiquette++;
+        this.idConditionnement = idConditionnement;
+        this.libConditionnement = libConditionnement;
     }
     
     public int getIdConditionnement() {
