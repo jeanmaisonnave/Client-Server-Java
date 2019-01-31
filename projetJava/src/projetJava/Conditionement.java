@@ -2,11 +2,13 @@
 public class Conditionement {
 
 	//attributs
-	private int idConditionement;
+	private Integer idConditionement;
 	private String libConditionement;
 	
+	//constructeur
+	
 	//getters and setters
-	public int getIdConditionement() {
+	public Integer getIdConditionement() {
 		return idConditionement;
 	}
 	public void setIdConditionement(int idConditionement) {
