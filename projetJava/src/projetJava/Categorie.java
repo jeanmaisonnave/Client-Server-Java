@@ -2,13 +2,13 @@
 public class Categorie {
 
 	//attributs
-		private int idCategorie;
+		private Integer idCategorie;
 		private String libCategorie;
 		
 	//Constructeur
 	
 	//getters et setters
-		public int getIdCategorie() {
+		public Integer getIdCategorie() {
 			return idCategorie;
 		}
 		public void setIdCategorie(int idCategorie) {
