@@ -10,5 +10,18 @@ package sophie_fonseque.pkg2.pkg0;
  * @author Landry Gato
  */
 public class Stock {
+    private Integer quantite;
+    
+   public Stock(Integer quantite)
+   {
+       this.quantite=quantite;
+   }
+    
+      public Integer getQuantite() {
+        return quantite;
+    }
+     public void setQuantite(Integer quantite) {
+        this.quantite = quantite;
+    } 
     
 }
