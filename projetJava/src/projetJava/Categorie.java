@@ -5,6 +5,8 @@ public class Categorie {
 		private int idCategorie;
 		private String libCategorie;
 		
+	//Constructeur
+	
 	//getters et setters
 		public int getIdCategorie() {
 			return idCategorie;
@@ -19,5 +21,6 @@ public class Categorie {
 			this.libCategorie = libCategorie;
 		}
 		
+	
 		
 }
