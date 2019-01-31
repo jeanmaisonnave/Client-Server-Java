@@ -10,21 +10,23 @@
  */
 public class Recette {
     
-     private int idRecette;
+     private interger idRecette;
     private String nomRecette;
     private String libelle;
-    private int ingredient;
-    private static int nbreRecette = 0;
+    private integer ingredient;
     
     public Recette() {
         //contructeur
         //On incrémente la variable à chaque appel du constructeur
-        nbreRecette++;
+        
     }
     public Recette(int idRecette, String nomRecette, String libelle, int ingredient) {
         //contructeur
         //On incrémente la variable à chaque appel du constructeur
-        nbreRecette++;
+        this.idRecette = idRecette;
+        this.nomRecette = nomRecette;
+        this.libelle = libelle;
+        this.ingredient = ingredient;
     }
 
     public int getIdRecette() {
