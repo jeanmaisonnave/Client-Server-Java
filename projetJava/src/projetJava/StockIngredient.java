@@ -11,4 +11,19 @@ package sophie_fonseque.pkg2.pkg0;
  */
 public class StockIngredient {
     
+      private String nomIngredient;
+
+
+    public StockIngredient (String nomIngredient) {
+        this.nomIngredient = nomIngredient;
+    }
+
+    public String getNomIngredient() {
+        return NomIngredient;
+    }
+
+    public void setNomIngredient(String NomIngredient) {
+        this.NomIngredient = NomIngredient;
+}
+    
 }
