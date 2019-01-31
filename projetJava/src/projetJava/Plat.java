@@ -2,7 +2,7 @@
 public class Plat {
 
 	//atributs
-	private int idPlat;
+	private Integer idPlat;
 	private String nomPlat;
 	private double prix;
 	
@@ -14,7 +14,7 @@ public class Plat {
 	}
 	
 	//getters and setters
-	public int getIdPlat() {
+	public Integer getIdPlat() {
 		return idPlat;
 	}
 	public void setIdPlat(int idPlat) {
