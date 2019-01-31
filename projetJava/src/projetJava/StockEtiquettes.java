@@ -11,4 +11,19 @@ package sophie_fonseque.pkg2.pkg0;
  */
 public class StockEtiquettes {
     
+      private String nomEtiquette;
+
+
+    public StockEtiquettes(String nomEtiquette) {
+        this.nomEtiquette = nomEtiquette;
+    }
+
+    public String getNomEtiquette() {
+        return nomEtiquette;
+    }
+
+    public void setNomEtiquette(String nomEtiquette) {
+        this.nomEtiquette = nomEtiquette;
+    }
+    
 }
