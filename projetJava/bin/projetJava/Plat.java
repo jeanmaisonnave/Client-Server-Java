@@ -2,9 +2,10 @@
 public class Plat {
 
 	//atributs
-	private int idPlat;
+	private Integer idPlat;
 	private String nomPlat;
 	private double prix;
+	private Integer conditionement;
 	
 	//constructeur
 	public Plat(int idPlat, String nomPlat, double prix) {
@@ -32,10 +33,18 @@ public class Plat {
 	public void setPrix(double prix) {
 		this.prix = prix;
 	}
+	public int getConditionement() {
+		return conditionement;
+	}
+	public void setConditionement(int conditionement) {
+		this.conditionement = conditionement;
+	}
 	
 	//methodes
 	public void afficherPlats(){
-		System.out.println("id :"+idPlat+"nom: "+nomPlat+"prix: "+prix);
+		System.out.println("id :"+idPlat+"nom: "+nomPlat+"prix: "+prix+"contitionement: "+conditionement);
 	}
+	public void afficherPrixConditionement(){
+		System.out.println("conditionement: "+conditionement+"prix: "+getPrix)
 	
 }
