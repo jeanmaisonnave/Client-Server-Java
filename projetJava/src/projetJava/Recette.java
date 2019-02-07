@@ -60,5 +60,17 @@ public class Recette {
     public void setIngredient(int ingredient) {
         this.ingredient = ingredient;
     }
+    
+    // Cette méthode affiche les ingredients.
+	// Joe
+	 public void afficherRecette () {
+     
+     		System.out.println(
+            		"id recette  : "+ this.getIdRecette()+
+              		"Nom recette : "+ this.getNomRecette() + 
+			        "Libelle : "+this.getLibelle() +
+			        "Ingredient : "+ this.getIngredient() 
+		);
+ 	}
             
 }
