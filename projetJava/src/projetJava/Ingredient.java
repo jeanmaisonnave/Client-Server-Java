@@ -43,7 +43,18 @@ public class Ingredient {
 	}
 	
 	public void afficherCout() {
-		System.out.println("L'ingredient " + nomIngredient + " coute " + cout + "�/" + uniteIngredient);
+		System.out.println("L'ingredient " + nomIngredient + " coute " + cout + "€/" + uniteIngredient);
 	}
 	
+	// Cette méthode affiche les ingredients.
+	// Joe
+	 public void afficherIngredient () {
+     
+     		System.out.println(
+            		"id ingredient  : "+ this.getIdIngredient()+
+              		"Nom ingredient : "+ this.getNomIngredient() + 
+			"Cout : "+this.getCout() +
+			"Unite : "+ this.getUniteIngredient() 
+		);
+ 	}
 }
