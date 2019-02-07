@@ -61,7 +61,7 @@ public class Recette {
         this.ingredient = ingredient;
     }
     
-    // Cette méthode affiche les ingredients.
+    // Cette méthode affiche les recettes.
 	// Joe
 	 public void afficherRecette () {
      
